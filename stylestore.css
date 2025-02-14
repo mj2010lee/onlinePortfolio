@@ -1,0 +1,164 @@
+* {
+  color: #333;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.maindiv {
+  border: 5px solid #333;
+  margin: 20px 0;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #eee;
+  text-transform: uppercase;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin: 0 20px;
+}
+
+h3 {
+  font-size: 48px;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+h4 {
+  margin: 10px 0;
+  margin: 0 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  margin: 0 20px;
+}
+
+li {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+footer p,
+footer em,
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+footer a em:hover,
+footer a em:active {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.addto {
+  background-color: #333;
+  color: #fff;
+  border: 5px solid #333;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.addto:hover,
+.addto:active {
+  background-color: #ccc;
+  color: #333;
+  border: 5px solid #ccc;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy {
+  background-color: #500404;
+  color: #fff;
+  border: 5px solid #500404;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.buy:hover,
+.buy:active {
+  background-color: #da7f7f;
+  color: #500404;
+  border: 5px solid #da7f7f;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.shipping {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.more-info {
+  margin: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  background-color: #fff;
+  color: #333;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.more-info:hover,
+.more-info:active {
+  background-color: #333;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.new-prod {
+  position: absolute;
+  top: -20px;
+  right: -40px;
+  background-color: #500404;
+  color: #fff;
+  padding: 7px 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.howmany {
+  font-size: 20px;
+  border: 0;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.howmany:hover {
+  font-size: 20px;
+  border: 0;
+  background-color: #da7f7f;
+  color: #500404;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
